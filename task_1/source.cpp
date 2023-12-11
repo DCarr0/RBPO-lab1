@@ -69,7 +69,7 @@ void WritePersonData(const unsigned short age, const string& name, const string&
 }
 
 
-
+#ifndef DO_NOT_DEFINE_MAIN
 void main() {
 	unsigned short age=0;
 	string name;
@@ -82,3 +82,4 @@ void main() {
 	WritePersonData(age, name, to_string(height),to_string(weight));
 
 }
+#endif
