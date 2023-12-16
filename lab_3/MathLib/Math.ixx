@@ -3,7 +3,6 @@ module;
 #include <iostream>
 
 export module Math;
-double epsilon = 1e-15;
 
 export class Complex
 {
